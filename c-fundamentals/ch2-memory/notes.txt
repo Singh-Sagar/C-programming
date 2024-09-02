@@ -1,0 +1,24 @@
+to access the memory location of a variable, we use & operator
+to access the memory location of say a variable x, we will write &x
+
+%p is used to format address
+
+to find where a variable is stored in memory using the & operator
+
+once we get the address, we need a pointer variable
+sample : int *address_of_x = &x;
+
+to read the value of a pointer
+sample: int value_stored = * address_of_x; 
+
+& and * are opposites
+& => provides address of a variable
+* => provides value of an address
+
+pointers are sometimes called references, the * operator is said to 
+dereference a pointer
+
+
+to change the value of an address, you do something like this:
+*address_of_x = 99;
+take note of the syntax above. 
